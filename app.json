@@ -10,11 +10,15 @@
     "env": {
         "VERIFY_TOKEN": {
             "description": "A secret key needed to check calls from Facebook.",
-            "value": "NULL"
+            "value": ""
         },
         "PAGE_ACCESS_TOKEN": {
             "description": "The Page Token provided by Facebook under Get Page Access Token section",
-            "value": "NULL"
+            "value": ""
+        },
+        "APP_SECRET": {
+            "description": "The App Secret provided by Facebook under Dashboard",
+            "value": ""
         }
     }
 }
