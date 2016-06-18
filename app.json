@@ -8,15 +8,15 @@
         "postdeploy": "curl -ik -X POST \"https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=$PAGE_ACCESS_TOKEN\""
     },
     "env": {
-        "VERIFY_TOKEN": {
+        "MESSENGER_VALIDATION_TOKEN": {
             "description": "A secret key needed to check calls from Facebook.",
             "value": ""
         },
-        "PAGE_ACCESS_TOKEN": {
+        "MESSENGER_PAGE_ACCESS_TOKEN": {
             "description": "The Page Token provided by Facebook under Get Page Access Token section",
             "value": ""
         },
-        "APP_SECRET": {
+        "MESSENGER_APP_SECRET": {
             "description": "The App Secret provided by Facebook under Dashboard",
             "value": ""
         }
